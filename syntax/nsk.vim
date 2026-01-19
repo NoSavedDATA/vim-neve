@@ -1,7 +1,7 @@
 if exists('b:current_syntax') | finish | endif
 
 " --- Reserved keywords (red) ---
-syntax keyword nskRedKeyword import finish main for in while if return ctor
+syntax keyword nskRedKeyword import finish main for in while if return ctor break
 
 
 " --- Types ---
