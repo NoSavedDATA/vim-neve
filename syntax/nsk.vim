@@ -37,6 +37,7 @@ syntax match nskOperator "[+\-*/=<>!%]\|<-"
 
 " --- Strings ---
 syntax region nskString start=+"+ end=+"+ contains=nskEscape
+syntax region nskChar start=+'+ end=+'+ contains=nskEscape
 syntax match nskEscape "\\." contained
 
 " --- Comments ---
@@ -57,6 +58,7 @@ hi nskType guifg=#57B6D9 ctermfg=Blue
 hi def link nskNumber Number
 hi def link nskOperator Operator
 hi def link nskString String
+hi def link nskChar String
 hi def link nskEscape SpecialChar
 hi def link nskComment Comment
 hi LineNr guifg=#808080 ctermfg=Grey
