@@ -25,7 +25,7 @@ syntax match nskFuncName /[a-zA-Z_][a-zA-Z0-9_]*/ contained
 
 
 " --- Other keywords / operators / booleans / types ---
-syntax keyword nskBoolean true false
+syntax keyword nskBoolean true false nil
 "syntax keyword nskType self float int str bool var tensor list tuple dict
 syntax keyword nskAsyncs spawn async asyncs
 
